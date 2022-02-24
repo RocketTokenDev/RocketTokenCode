@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-ganache": "^2.0.1",
+    "@openzeppelin/hardhat-upgrades": "^1.14.0",
+    "ethers": "^5.5.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@remix-project/remixd": "^0.5.6"
+  }
+}
