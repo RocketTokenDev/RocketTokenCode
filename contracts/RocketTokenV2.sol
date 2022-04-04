@@ -1,5 +1,4 @@
 
-// hevm: flattened sources of src/MarshallRoganInu.sol
 // SPDX-License-Identifier: MIT
 pragma solidity =0.8.10 >=0.8.10 >=0.8.0 <0.9.0;
 pragma experimental ABIEncoderV2;
