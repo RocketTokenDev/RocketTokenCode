@@ -1125,19 +1125,19 @@ contract RocketTokenV2 is ERC20, Ownable {
         _setAutomatedMarketMakerPair(address(uniswapV2Pair), true);
 
         uint256 _buyMarketingFee = 2;
-        uint256 _buyLiquidityFee = 2;
+        uint256 _buyLiquidityFee = 1;
         uint256 _buyDevFee = 1;
-        uint256 _buyCommunityFee = 1;
+        uint256 _buyCommunityFee = 2;
 
         uint256 _sellMarketingFee = 2;
         uint256 _sellLiquidityFee = 2;
-        uint256 _sellDevFee = 2;
-        uint256 _sellCommunityFee = 2;
+        uint256 _sellDevFee = 3;
+        uint256 _sellCommunityFee = 3;
 
-        uint256 totalSupply = 33_000_000_000 * 1e18;
+        uint256 totalSupply = 40_000_000_000 * 1e18;
 
-        maxTransactionAmount = 330_000_000 * 1e18; // 1% from total supply maxTransactionAmountTxn
-        maxWallet = 990_000_000 * 1e18; // 3% from total supply maxWallet
+        maxTransactionAmount = 400_000_000 * 1e18; // 1% from total supply maxTransactionAmountTxn
+        maxWallet = 1_200_000_000 * 1e18; // 3% from total supply maxWallet
         swapTokensAtAmount = (totalSupply * 5) / 10000; // 0.05% swap wallet
 
         buyMarketingFee = _buyMarketingFee;
