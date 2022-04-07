@@ -1152,9 +1152,9 @@ contract RocketTokenV2 is ERC20, Ownable {
         sellCommunityFee = _sellCommunityFee;
         sellTotalFees = sellMarketingFee + sellLiquidityFee + sellDevFee + sellCommunityFee;
 
-        marketingWallet = address(0x6303c6c9DE0A4C19E845a9D0847297Ca64CD7758); // set as marketing wallet
-        devWallet = address(0x6303c6c9DE0A4C19E845a9D0847297Ca64CD7758); // set as dev wallet
-        communityWallet = address(0x6303c6c9DE0A4C19E845a9D0847297Ca64CD7758); // set as community wallet 
+        marketingWallet = address(0xdb83DB283183A98910442E1FDe77bAF8803BB037); // set as marketing wallet
+        devWallet = address(0x30469c313972662f7E7Ac1fa49b0e4AD88786F15); // set as dev wallet
+        communityWallet = address(0xE0C7094a6EE7031bA4E43cc510d39c39996ED0dE); // set as community wallet 
 
         // exclude from paying fees or having max transaction amount
         excludeFromFees(owner(), true);
